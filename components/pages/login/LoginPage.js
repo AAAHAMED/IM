@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, TextInput, TouchableOpacity, Text, Alert, Image, ImageBackground, Modal, StyleSheet } from 'react-native';
 import { firebase } from '../../../config.js';
-import styles from '../../styles/LoginPageStyles.js/index.js';
+import styles from '../../styles/LoginPageStyles.js';
 
 const LoginPage = ({ navigation }) => {
     const [email, setEmail] = useState('');
